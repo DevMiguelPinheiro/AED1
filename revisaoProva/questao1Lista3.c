@@ -1,3 +1,10 @@
+/*1) Leia um vetor de 40 posições. Em seguida imprima:
+a. (0,5) Quantos valores pares ele possui.
+b. (0,5) Quantos valores ímpares ele possui.
+c. (0,5) Qual o maior valor do vetor.
+d. (0,5) Qual o menor valor do vetor.
+
+*/
 #include<stdio.h>
 
 #define N 3
