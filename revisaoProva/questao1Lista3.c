@@ -4,7 +4,9 @@ b. (0,5) Quantos valores ímpares ele possui.
 c. (0,5) Qual o maior valor do vetor.
 d. (0,5) Qual o menor valor do vetor.
 
+teste teste
 */
+
 #include<stdio.h>
 
 #define N 3
