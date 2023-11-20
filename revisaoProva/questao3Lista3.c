@@ -10,7 +10,7 @@ int fatorial(int num) {
     }
 }
 
-void formaB(int vetA[], int vetB[]){
+void formaB(int *vetA, int *vetB){
     for (int i = 0; i < N; i++) {
         vetB[i] = fatorial(vetA[i]);
     }

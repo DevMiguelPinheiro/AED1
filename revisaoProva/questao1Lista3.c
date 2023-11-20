@@ -9,7 +9,7 @@ d. (0,5) Qual o menor valor do vetor.
 
 #define N 3
 
-void verificaParOuImpar(int vet[]) {
+void verificaParOuImpar(int *vet) {
     int impar = 0, par = 0;
     
     for(int i = 0; i < N; i++) {

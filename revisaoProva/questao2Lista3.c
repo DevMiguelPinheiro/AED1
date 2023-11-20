@@ -3,7 +3,7 @@
 #define N 10
 #define M N * 2
 
-void formaVetorZ(int vetX[], int vetY[]) {
+void formaVetorZ(int *vetX, int *vetY) {
     int vetZ[M];
 
     //forma
