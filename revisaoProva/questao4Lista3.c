@@ -7,9 +7,9 @@ a quantidade de valores pares em X.*/
 
 #define N 5
 
-int quantidadeDePares(int *vetX){
-    int pares;
-    pares = 0;
+int quantidadeDePares(int vetX[]){
+    int pares = 0;
+
     for(int i = 0;i<N;i++){
         if(vetX[i]%2 == 0){
             pares++;

@@ -3,8 +3,6 @@ a. (0,5) Quantos valores pares ele possui.
 b. (0,5) Quantos valores ímpares ele possui.
 c. (0,5) Qual o maior valor do vetor.
 d. (0,5) Qual o menor valor do vetor.
-
-teste teste
 */
 
 #include<stdio.h>
@@ -33,12 +31,12 @@ void verificaMaiorOuMenor(int vet[]){
     int menor = vet[0];
 
     for(int i = 0; i < N; i++) {
-    if(vet[i] >maior) {
+        if(vet[i] >maior) {
         maior = vet[i];
-    }
-    if(vet[i] <menor) {
+        }
+        if(vet[i] <menor) {
         menor = vet[i];
-    }
+        }
 
     }
 
@@ -53,6 +51,7 @@ int main() {
 
     //ler vetor
     for(int i = 0; i < N; i++) {
+        printf("Digite o numero :");
         scanf("%d", &vet[i]);
     }
 

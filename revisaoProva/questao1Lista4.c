@@ -25,7 +25,7 @@ void empilhaNaPrimeira(struct duasListas *duasListas,int valor){
         return;
     }
     //caso contrario ele coloca na primeira lista, no caso sendo que a primeira lista esta no vetor para juntar as duas por isso o incremento DENTRO DO VETOR da estrutura!
-    duasListas->vetTotal[++duasListas->topoPrimeira]= valor;
+    duasListas->vetTotal[++duasListas->topoPrimeira] = valor;
     printf("O item empilhado na primeira pilha foi %d\n",valor);
 }
 
@@ -35,7 +35,7 @@ void empilhaNaSegunda(struct duasListas *duasListas,int valor){
         return;
     }
     //caso contrario ele coloca na Segunda lista, no caso sendo que a primeira lista esta no vetor para juntar as duas por isso o incremento DENTRO DO VETOR da estrutura!
-    duasListas->vetTotal[--duasListas->topoSegunda]= valor;
+    duasListas->vetTotal[--duasListas->topoSegunda] = valor;
     printf("O item empilhado na segunda pilha foi %d\n",valor);
 }
 

@@ -15,7 +15,7 @@ void procedimento(float nota1,float nota2,float nota3,char escolha){
             printf("A media eh : %0.2f\n",media);
             break;
         
-        case 'B':
+        case 'P':
             mediaPonderada = ((nota1*5)+(nota2*3)+(nota3*2))/(5+3+2);
             printf("A media ponderada eh : %0.2f\n",mediaPonderada);
             break;
